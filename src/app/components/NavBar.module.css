@@ -1,0 +1,22 @@
+.navBar {
+  background-color: gray;
+  margin-bottom: 8px;
+}
+
+.navBar ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  list-style: none;
+}
+
+.navBar li {
+  padding: 25px;
+  cursor: pointer;
+  transition: 0.4s ease-in-out;
+}
+
+.navBar li:hover{
+  background-color: rgb(59, 56, 56);
+}
